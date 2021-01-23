@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#center_box{
+    height: 200px;
+    width: 600px;
+    background-color: brown;
+}
+div .center_item{
+    min-height: 20%;
+    background-color: blue;
+
+}
+
+img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: blue;
+}
+ul li{
+    display: inline;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    background-color: blue;
+}                   
+
+h1{
+    
+    margin-top: 10px;
+     margin-bottom: 10px;
+     margin-left: 10px;
+     margin-right: 10px;
+     display: inline-flex;
+     background-color: blue;
+
+}
+
+center-box, center_item, img, ul, h1{
+    flex-wrap: 10px;
+}
